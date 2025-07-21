@@ -162,4 +162,57 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
+## 📋 Accelerator Application Submission Guide
+
+This GitHub repository serves as the official submission for our project's accelerator application and contains the complete and original source code for assessment.
+
+### Technical Design Explanation
+This `README.md` file is structured to comprehensively explain the technical design of our code. We have detailed the core components, their interactions, system architecture, and implementation approach throughout this document.
+
+### System Design Diagrams and Narrative
+Our system design is explained through detailed narrative descriptions in the sections above, including:
+- **Architecture Overview**: Frontend React application with Web3 integration
+- **Component Structure**: Modular design with clear separation of concerns
+- **Data Flow**: User interactions → Web3 wallet → Smart contracts → Blockchain
+- **Integration Points**: Wagmi/Viem for Ethereum, AI services for risk assessment
+
+### Code Organization
+Our codebase follows a clean, modular architecture:
+```
+src/
+├── components/          # React components (Navigation, Hero, Vaults, etc.)
+├── services/           # External service integrations (AI, blockchain)
+├── config/             # Configuration files (Wagmi, environment)
+├── utils/              # Utility functions and helpers
+└── main.tsx           # Application entry point
+```
+Each component focuses on a single responsibility, with clear imports/exports and proper separation of concerns.
+
+### Libraries and Frameworks Used
+A comprehensive list of all libraries and frameworks can be found in `package.json`. Key technologies include:
+- **Frontend**: React 18, TypeScript, Vite
+- **Styling**: Tailwind CSS with custom design system
+- **Web3**: Wagmi v2.16.0, Viem v2.33.0 for Ethereum integration
+- **State Management**: TanStack React Query v5.83.0
+- **Icons**: Lucide React v0.344.0
+- **Development**: ESLint, TypeScript ESLint, Autoprefixer
+
+### Points of XRPL Integration
+Our blockchain integration points are implemented in:
+- **`src/config/wagmi.ts`**: Web3 wallet connectivity and chain configuration
+- **`src/components/WalletConnectButton.tsx`**: Wallet connection interface
+- **Smart Contract Integration**: Prepared for vault subscription and yield distribution
+- **Transaction Handling**: Ready for on-chain asset verification and reporting
+
+*Note: While currently configured for Ethereum networks (mainnet, Sepolia, Goerli), the architecture is designed to easily integrate with XRPL through similar Web3 patterns.*
+
+### Access for Reviewers
+This GitHub repository is intentionally set to **public** to provide direct and immediate access for the XRPL Grants reviewers. We confirm that:
+- This repository will be shared and accessed **only** by the XRPL Grants review team
+- Your data and information will not be shared with any third parties without prior explicit consent
+- This repository is exclusively dedicated to the project for which we are applying
+- No broader company-wide code or proprietary information unrelated to this application is included
+
+---
+
 *PrivéFi - Bridging traditional finance and DeFi through institutional-grade real-world assets.*
