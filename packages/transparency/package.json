@@ -1,0 +1,20 @@
+{
+  "name": "@privefi/transparency",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@privefi/core": "workspace:*",
+    "jszip": "^3.10.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  }
+}
