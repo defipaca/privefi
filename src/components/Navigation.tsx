@@ -27,7 +27,7 @@ export const Navigation: React.FC<NavigationProps> = ({ currentPage, onPageChang
             <Shield className="h-8 w-8 text-amber-500 group-hover:text-amber-400 transition-colors" />
             <div>
               <span className="text-xl font-serif font-bold text-white group-hover:text-amber-100 transition-colors">PrivéFi</span>
-              <p className="text-xs text-slate-400 -mt-1">The Prestige Layer of Real-World Yield</p>
+              <p className="text-xs text-slate-400 -mt-1">Tokenized Private Credit. Luxury Real-World Assets.</p>
             </div>
           </div>
 
@@ -52,12 +52,10 @@ export const Navigation: React.FC<NavigationProps> = ({ currentPage, onPageChang
           {/* Action Buttons */}
           <div className="flex items-center space-x-4">
             <a
-              href="https://drive.google.com/file/d/1y68MCQAPN9DvYBNgJqUkJ2i4JoSe3pUm/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:hello@privefi.xyz"
               className="flex items-center space-x-2 border border-purple-500/50 text-purple-400 px-4 py-2 rounded-lg font-medium hover:bg-purple-500/10 hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 ease-in-out"
             >
-              <span>View Deck</span>
+              <span>Contact Us</span>
               <ExternalLink className="h-4 w-4" />
             </a>
             <WalletConnectButton />

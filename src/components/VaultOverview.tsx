@@ -8,14 +8,14 @@ interface VaultOverviewProps {
 const vaults = [
   {
     id: 'jetlease-001',
-    name: 'Jet Series I',
+    name: 'Jet Series I (G550)',
     yield: '8.5%',
     status: 'Anchor LPs Only',
-    collateral: 'Gulfstream G450 (1st-lien)',
+    collateral: 'Gulfstream G550 (1st-lien)',
     icon: Plane,
-    image: 'https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg',
+    image: '/g550.jpeg',
     totalValue: '$2.5M',
-    duration: '5 years',
+    duration: '60M',
     riskScore: 'A-',
     featured: true
   },
@@ -58,6 +58,11 @@ export const VaultOverview: React.FC<VaultOverviewProps> = ({ onVaultSelect }) =
           <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
             Our expanding portfolio of tokenized private credit opportunities across luxury assets and sustainable infrastructure, each with institutional-grade collateral and transparent risk assessment.
           </p>
+          <div className="mt-6 p-4 bg-yellow-500/10 border border-yellow-500/30 rounded-xl max-w-4xl mx-auto">
+            <p className="text-yellow-400 font-medium">
+              <strong>Disclaimer:</strong> The vaults shown below are simulated for demonstration purposes only and do not represent actual investment opportunities.
+            </p>
+          </div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">

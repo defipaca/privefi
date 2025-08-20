@@ -9,10 +9,10 @@ const scoringData = {
   'jetlease-001': {
     overallScore: 'A-',
     factors: [
-      { name: 'Asset Risk', score: 95, color: 'green', detail: 'Aircraft <5Y, fully insured' },
+      { name: 'Asset Risk', score: 95, color: 'green', detail: 'G550 <5Y, fully insured' },
       { name: 'Lessee Credit', score: 88, color: 'green', detail: 'AA- rated lessees' },
-      { name: 'Lease Terms', score: 85, color: 'green', detail: '12-year avg lease term' },
-      { name: 'Cashflow', score: 82, color: 'yellow', detail: 'Monthly verified receipts' }
+      { name: 'Lease Terms', score: 85, color: 'green', detail: '60M term with guarantees' },
+      { name: 'Cashflow', score: 82, color: 'yellow', detail: 'Monthly verified receipts, paid in arrears' }
     ]
   },
   'yacht-vault-001': {

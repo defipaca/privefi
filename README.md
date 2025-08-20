@@ -1,10 +1,10 @@
-# PrivéFi - The Prestige Layer of Real-World Yield
+# PrivéFi - Tokenized Private Credit. Luxury Real-World Assets.
 
 A sophisticated DeFi platform bridging traditional private credit and blockchain technology through tokenized luxury asset financing.
 
 ## 🚀 Overview
 
-PrivéFi represents the next evolution in decentralized finance, offering institutional-grade investment opportunities in real-world assets. Starting with Asia's aircraft leasing markets, we provide transparent, blockchain-verified access to premium private credit deals.
+PrivéFi represents the next evolution in decentralized finance, offering institutional-grade investment opportunities in luxury real-world assets. Starting with Asia's aircraft leasing markets, we provide transparent, blockchain-verified access to premium private credit deals.
 
 ## ✨ Features
 
@@ -117,18 +117,37 @@ npm run lint
 
 ### Live Investment Opportunities
 
-**Bombardier Global 6000 - First-Lien Senior Loan**
-- **Loan Amount**: USD 13.75M
+**Bombardier Global 6000 - First-Lien Senior Loan (Simulated)**
+- **PrivéFi Allocation**: USD 5M
 - **Term**: 36 months
-- **Yield**: 10% flat p.a.
-- **IRR**: 11.35%
-- **Net LTV**: 27%
-- **Collateral Cover**: 3.7x by Year 3
+- **APY**: 10%
+- **Monthly Yield**: 2.43%
+- **IRR**: 11.69%
+- **Net LTV**: 52%
+- **Collateral Cover**: 3.99x
+- **Final Payment**: USD 2M
 
 **Collateral Package**:
-- USD 22.87M aircraft value
-- SGD 10M real estate
-- USD 650K cash deposit
+- USD 27.87M aircraft value
+- USD 5M real estate
+- USD 900K cash deposit
+
+**Gulfstream G550 - First-Lien Senior Loan (Simulated)**
+- **PrivéFi Allocation**: USD 6M
+- **Term**: 60 months
+- **APY**: 8.5%
+- **Monthly Yield**: 1.95%
+- **IRR**: 10.41%
+- **Net LTV**: 71%
+- **Collateral Cover**: 6.0x
+- **Final Payment**: USD 0.97M
+
+**Collateral Package**:
+- USD 25.63M aircraft value
+- USD 1.2M cash deposit
+- Full guarantees provided
+
+**Disclaimer**: The deals shown are simulated for demonstration purposes only and do not represent actual investment opportunities.
 
 ## 🔐 Security & Compliance
 
@@ -149,7 +168,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Contact
 
 - **Website**: [https://privefi.xyz](https://privefi.xyz)
-- **Email**: [contact@privefi.xyz](mailto:contact@privefi.xyz)
+- **Email**: [hello@privefi.xyz](mailto:hello@privefi.xyz)
 - **Calendar**: [Book a Demo Call](https://calendly.com/privefi)
 
 ## 🎯 Roadmap
@@ -215,4 +234,4 @@ This GitHub repository is intentionally set to **public** to provide direct and 
 
 ---
 
-*PrivéFi - Bridging traditional finance and DeFi through institutional-grade real-world assets.*
+*PrivéFi - Tokenized Private Credit. Luxury Real-World Assets.*

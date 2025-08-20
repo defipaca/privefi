@@ -10,24 +10,25 @@ interface VaultDetailsProps {
 
 const vaultData = {
   'jetlease-001': {
-    name: 'Jet Series I',
+    name: 'Jet Series I (G550)',
     yield: '8.5%',
     status: 'Anchor LPs Only',
-    collateral: 'Gulfstream G450 (1st-lien)',
-    image: 'https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg',
+    collateral: 'Gulfstream G550 (1st-lien)',
+    image: '/g550.jpeg',
     minimum: '$100,000',
-    lockup: '5 years',
+    lockup: '60M',
     totalValue: '$2.5M',
     available: '$750K',
     investors: 8,
     riskScore: 'A-',
-    description: 'Our flagship vault featuring premium aircraft financing with institutional-grade collateral. The Gulfstream G450 provides stable returns through established aviation leasing markets in Asia-Pacific.',
+    description: 'Our flagship vault featuring premium aircraft financing with institutional-grade collateral. The Gulfstream G550 provides predictable returns through established aviation leasing markets in Asia-Pacific.',
     features: [
       '1st-lien position on aircraft asset',
       'Comprehensive hull & liability insurance',
       'Monthly yield distributions via smart contract',
       'Full on-chain transparency and reporting',
-      'Professional aircraft management included'
+      'Professional aircraft management included',
+      'Full guarantees provided'
     ]
   },
   'yacht-vault-001': {

@@ -6,10 +6,6 @@ export const LPCallToAction: React.FC = () => {
     window.open('https://calendly.com/privefi', '_blank', 'noopener,noreferrer');
   };
 
-  const openDeck = () => {
-    window.open('https://drive.google.com/file/d/1y68MCQAPN9DvYBNgJqUkJ2i4JoSe3pUm/view?usp=sharing', '_blank', 'noopener,noreferrer');
-  };
-
   return (
     <section className="py-24 bg-gradient-to-br from-zinc-950 via-zinc-900 to-zinc-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -36,7 +32,7 @@ export const LPCallToAction: React.FC = () => {
             </div>
             <div className="text-center bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-purple-500/30 hover:shadow-lg hover:shadow-purple-500/10 transition-all duration-300 ease-in-out">
               <TrendingUp className="h-12 w-12 text-purple-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-white mb-3">Stable Returns</h3>
+              <h3 className="text-xl font-bold text-white mb-3">Predictable Returns</h3>
               <p className="text-slate-300">Target 8-12% APY from real-world assets with predictable cash flows</p>
             </div>
           </div>
@@ -50,13 +46,13 @@ export const LPCallToAction: React.FC = () => {
               <span>Schedule a Call</span>
               <ArrowRight className="h-6 w-6" />
             </button>
-            <button 
-              onClick={openDeck}
+            <a 
+              href="mailto:hello@privefi.xyz"
               className="border border-purple-500/50 text-purple-400 px-12 py-6 rounded-xl font-bold text-lg hover:bg-purple-500/10 hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 ease-in-out flex items-center space-x-3"
             >
-              <span>View Investor Deck</span>
+              <span>Contact Us</span>
               <ExternalLink className="h-6 w-6" />
-            </button>
+            </a>
             </div>
             <p className="text-sm text-slate-400 mt-4">
               30-minute discovery call • No commitment required
