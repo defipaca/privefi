@@ -170,34 +170,40 @@ export const JetSeriesVault: React.FC = () => {
                 </div>
               </div>
 
-              <div className="space-y-4 mb-8">
-                <div className="flex justify-between items-center">
-                  <span className="text-slate-400">Collateral Asset</span>
-                  <span className="font-semibold text-white">Gulfstream G550</span>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                <div>
+                  <h4 className="text-xl font-semibold text-white mb-4">Deal Structure</h4>
+                  <div className="space-y-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-slate-400">PrivéFi Allocation</span>
+                      <span className="font-semibold text-white">USD 6M</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-slate-400">Final Payment</span>
+                      <span className="font-semibold text-white">USD 0.97M</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-slate-400">Collateral Cover</span>
+                      <span className="font-semibold text-green-400">6.0x</span>
+                    </div>
+                  </div>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-slate-400">PrivéFi Allocation</span>
-                  <span className="font-semibold text-white">USD 6M</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-slate-400">Final Payment</span>
-                  <span className="font-semibold text-white">USD 0.97M</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-slate-400">Aircraft Value</span>
-                  <span className="font-semibold text-white">USD 25.63M</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-slate-400">Cash Deposit</span>
-                  <span className="font-semibold text-white">USD 1.2M</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-slate-400">Lien Position</span>
-                  <span className="font-semibold text-green-400">1st-lien</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-slate-400">Guarantees</span>
-                  <span className="font-semibold text-green-400">Full Guarantees Provided</span>
+                <div>
+                  <h4 className="text-xl font-semibold text-white mb-4">Collateral Package</h4>
+                  <div className="space-y-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-slate-400">Aircraft Value</span>
+                      <span className="font-semibold text-white">USD 25.63M</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-slate-400">Cash Deposit</span>
+                      <span className="font-semibold text-white">USD 1.2M</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-slate-400">Full Guarantees</span>
+                      <span className="font-semibold text-green-400">Provided</span>
+                    </div>
+                  </div>
                 </div>
               </div>
 
