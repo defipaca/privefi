@@ -44,6 +44,15 @@ function App() {
       case 'dashboard':
         return <UserDashboard />;
       default:
+        return null;
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <Navigation currentPage={currentPage} onPageChange={setCurrentPage} />
+      {renderPage()}
+      <AIAssistant />
     </div>
   );
 }
