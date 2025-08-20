@@ -24,7 +24,7 @@ export const JetSeriesVault: React.FC = () => {
           <div className="bg-gradient-to-br from-zinc-800 to-zinc-900 rounded-3xl shadow-2xl overflow-hidden border border-zinc-700 hover:border-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/10 transition-all duration-300 ease-in-out">
             <div className="relative h-80">
               <img 
-                src="6000.jpeg" 
+                src="/6000.jpeg" 
                 alt="Bombardier Global 6000"
                 className="w-full h-full object-cover"
               />
@@ -138,7 +138,7 @@ export const JetSeriesVault: React.FC = () => {
           <div className="relative">
             <div className="relative h-96 rounded-3xl overflow-hidden shadow-2xl hover:shadow-2xl hover:shadow-purple-500/10 transition-all duration-300 ease-in-out">
               <img 
-                src="g550.jpeg" 
+                src="/g550.jpeg" 
                 alt="Gulfstream G550"
                 className="w-full h-full object-cover"
               />
