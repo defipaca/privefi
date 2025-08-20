@@ -67,7 +67,7 @@ export const JetSeriesVault: React.FC = () => {
                 </div>
                 <div className="text-center bg-zinc-800/50 rounded-xl p-6 border border-zinc-700">
                   <TrendingUp className="h-8 w-8 text-purple-500 mx-auto mb-3" />
-                  <p className="text-sm text-slate-400 mb-2">3.99x by end of 36M</p>
+                  <p className="text-sm text-slate-400 mb-2">IRR</p>
                   <p className="text-3xl font-bold text-purple-400">11.69%</p>
                 </div>
               </div>
