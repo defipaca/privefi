@@ -25,7 +25,7 @@ export const JetSeriesVault: React.FC = () => {
             <div className="relative h-80">
               <img 
                 src="https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Bombardier Global 6000"
+                alt="Private Jet - Bombardier Global 6000"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
@@ -139,7 +139,7 @@ export const JetSeriesVault: React.FC = () => {
             <div className="relative h-96 rounded-3xl overflow-hidden shadow-2xl hover:shadow-2xl hover:shadow-purple-500/10 transition-all duration-300 ease-in-out">
               <img 
                 src="https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Gulfstream G550"
+                alt="Private Jet - Gulfstream G550"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
