@@ -50,7 +50,7 @@ export const Hero: React.FC = () => {
             <div className="flex items-center justify-center space-x-4 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-purple-500/30 hover:shadow-lg hover:shadow-purple-500/10 transition-all duration-300 ease-in-out">
               <TrendingUp className="h-10 w-10 text-purple-500 flex-shrink-0" />
               <div className="text-left">
-                <p className="font-bold text-white text-lg">Target 8.5% APY</p>
+                <p className="font-bold text-white text-lg">Target 8.5%-12% APY</p>
                 <p className="text-slate-400">Predictable real-world returns</p>
               </div>
             </div>

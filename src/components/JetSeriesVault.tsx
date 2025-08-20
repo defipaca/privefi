@@ -52,12 +52,12 @@ export const JetSeriesVault: React.FC = () => {
                 </div>
                 <div className="text-center bg-zinc-800/50 rounded-xl p-6 border border-zinc-700">
                   <Clock className="h-8 w-8 text-green-500 mx-auto mb-3" />
-                  <p className="text-sm text-slate-400 mb-2">Monthly Yield</p>
+                  <p className="text-sm text-slate-400 mb-2">Monthly Distribution</p>
                   <p className="text-3xl font-bold text-white">2.43%</p>
                 </div>
                 <div className="text-center bg-zinc-800/50 rounded-xl p-6 border border-zinc-700">
                   <Shield className="h-8 w-8 text-green-500 mx-auto mb-3" />
-                  <p className="text-sm text-slate-400 mb-2">Net LTV</p>
+                  <p className="text-sm text-slate-400 mb-2">Net LTV at Inception</p>
                   <p className="text-3xl font-bold text-white">52%</p>
                 </div>
                 <div className="text-center bg-zinc-800/50 rounded-xl p-6 border border-zinc-700">
@@ -67,7 +67,7 @@ export const JetSeriesVault: React.FC = () => {
                 </div>
                 <div className="text-center bg-zinc-800/50 rounded-xl p-6 border border-zinc-700">
                   <TrendingUp className="h-8 w-8 text-purple-500 mx-auto mb-3" />
-                  <p className="text-sm text-slate-400 mb-2">IRR</p>
+                  <p className="text-sm text-slate-400 mb-2">3.99x by end of 36M</p>
                   <p className="text-3xl font-bold text-purple-400">11.69%</p>
                 </div>
               </div>
@@ -87,10 +87,6 @@ export const JetSeriesVault: React.FC = () => {
                     <div className="flex justify-between items-center">
                       <span className="text-slate-400">Collateral Cover</span>
                       <span className="font-semibold text-green-400">3.99x</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-slate-400">Payment Terms</span>
-                      <span className="font-semibold text-white">Pay investors in arrears</span>
                     </div>
                   </div>
                 </div>
@@ -113,21 +109,6 @@ export const JetSeriesVault: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex space-x-4">
-                <button 
-                  disabled
-                  className="flex-1 bg-zinc-700 text-slate-400 py-4 px-6 rounded-xl font-semibold cursor-not-allowed"
-                >
-                  Deposit (Coming Soon)
-                </button>
-                <button 
-                  onClick={() => window.open('https://drive.google.com/file/d/1LFdhezLfEjOggXBMorEPs2fYk4u1ap0a/view', '_blank', 'noopener,noreferrer')}
-                  className="flex items-center space-x-2 border border-purple-600 text-purple-400 py-4 px-6 rounded-xl font-semibold hover:bg-purple-600/10 hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 ease-in-out"
-                >
-                  <span>🔎 View Deal Details</span>
-                  <ExternalLink className="h-5 w-5" />
-                </button>
-              </div>
             </div>
           </div>
         </div>
@@ -164,7 +145,7 @@ export const JetSeriesVault: React.FC = () => {
                 </div>
                 <div className="text-center bg-zinc-800/50 rounded-xl p-6 border border-zinc-700">
                   <Clock className="h-8 w-8 text-green-500 mx-auto mb-3" />
-                  <p className="text-sm text-slate-400 mb-2">Monthly Yield</p>
+                  <p className="text-sm text-slate-400 mb-2">Monthly Distribution</p>
                   <p className="text-3xl font-bold text-white">1.95%</p>
                 </div>
                 <div className="text-center bg-zinc-800/50 rounded-xl p-6 border border-zinc-700">
@@ -218,27 +199,8 @@ export const JetSeriesVault: React.FC = () => {
                   <span className="text-slate-400">Guarantees</span>
                   <span className="font-semibold text-green-400">Full Guarantees Provided</span>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-slate-400">Payment Terms</span>
-                  <span className="font-semibold text-white">Pay investors in arrears</span>
-                </div>
               </div>
 
-              <div className="flex space-x-4">
-                <button 
-                  disabled
-                  className="flex-1 bg-zinc-700 text-slate-400 py-4 px-6 rounded-xl font-semibold cursor-not-allowed"
-                >
-                  Deposit (Coming Soon)
-                </button>
-                <a 
-                  href="mailto:hello@privefi.xyz"
-                  className="flex items-center space-x-2 border border-purple-600 text-purple-400 py-4 px-6 rounded-xl font-semibold hover:bg-purple-600/10 hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 ease-in-out"
-                >
-                  <ExternalLink className="h-5 w-5" />
-                  <span>Contact Us</span>
-                </a>
-              </div>
             </div>
           </div>
         </div>
