@@ -86,7 +86,7 @@ export const JetSeriesVault: React.FC = () => {
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-slate-400">Collateral Cover</span>
-                      <span className="font-semibold text-green-400">3.99x</span>
+                      <span className="font-semibold text-green-400">3.99x by end of 36M</span>
                     </div>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ export const JetSeriesVault: React.FC = () => {
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-slate-400">Collateral Cover</span>
-                      <span className="font-semibold text-green-400">6.0x</span>
+                      <span className="font-semibold text-green-400">6.0x by end of 60M</span>
                     </div>
                   </div>
                 </div>
