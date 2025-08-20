@@ -44,23 +44,6 @@ function App() {
       case 'dashboard':
         return <UserDashboard />;
       default:
-        return (
-          <>
-            <Hero />
-            <JetSeriesVault />
-            <AIVaultScore />
-            <VaultOverview onVaultSelect={handleVaultSelect} />
-            <LPCallToAction />
-          </>
-        );
-    }
-  };
-
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-zinc-950 via-zinc-900 to-zinc-950">
-      <Navigation currentPage={currentPage} onPageChange={setCurrentPage} />
-      {renderPage()}
-      <AIAssistant />
     </div>
   );
 }
