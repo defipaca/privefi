@@ -163,11 +163,6 @@ export const JetSeriesVault: React.FC = () => {
                   <p className="text-sm text-slate-400 mb-2">IRR</p>
                   <p className="text-3xl font-bold text-purple-400">10.41%</p>
                 </div>
-                <div className="text-center bg-zinc-800/50 rounded-xl p-6 border border-zinc-700">
-                  <Shield className="h-8 w-8 text-green-500 mx-auto mb-3" />
-                  <p className="text-sm text-slate-400 mb-2">Collateral Cover</p>
-                  <p className="text-3xl font-bold text-white">6.0x</p>
-                </div>
               </div>
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
