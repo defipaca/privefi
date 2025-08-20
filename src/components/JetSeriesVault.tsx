@@ -129,7 +129,7 @@ export const JetSeriesVault: React.FC = () => {
                   <Plane className="h-8 w-8 text-purple-400" />
                 </div>
                 <h3 className="text-2xl font-bold text-white">Gulfstream G550</h3>
-                <p className="text-purple-200">1st-lien collateral position</p>
+                <p className="text-purple-200">First-Lien Senior Loan</p>
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@ export const JetSeriesVault: React.FC = () => {
                 </div>
                 <div className="text-center bg-zinc-800/50 rounded-xl p-6 border border-zinc-700">
                   <Shield className="h-8 w-8 text-green-500 mx-auto mb-3" />
-                  <p className="text-sm text-slate-400 mb-2">Net LTV</p>
+                  <p className="text-sm text-slate-400 mb-2">Net LTV at Inception</p>
                   <p className="text-3xl font-bold text-white">71%</p>
                 </div>
                 <div className="text-center bg-zinc-800/50 rounded-xl p-6 border border-zinc-700">
