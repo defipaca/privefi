@@ -13,7 +13,7 @@ const vaults = [
     status: 'Anchor LPs Only',
     collateral: 'Gulfstream G550 (1st-lien)',
     icon: Plane,
-    image: '/g550.jpeg',
+    image: 'g550.jpeg',
     totalValue: '$2.5M',
     duration: '60M',
     riskScore: 'A-',

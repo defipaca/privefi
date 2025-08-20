@@ -14,7 +14,7 @@ const vaultData = {
     yield: '8.5%',
     status: 'Anchor LPs Only',
     collateral: 'Gulfstream G550 (1st-lien)',
-    image: '/g550.jpeg',
+    image: 'g550.jpeg',
     minimum: '$100,000',
     lockup: '60M',
     totalValue: '$2.5M',
