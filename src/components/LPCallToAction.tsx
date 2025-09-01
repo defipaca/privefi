@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Users, Shield, TrendingUp, ExternalLink } from 'lucide-react';
+import { ArrowRight, Users, Shield, TrendingUp, ExternalLink, Twitter } from 'lucide-react';
 
 export const LPCallToAction: React.FC = () => {
   const openCalendly = () => {
@@ -46,13 +46,23 @@ export const LPCallToAction: React.FC = () => {
               <span>Schedule a Call</span>
               <ArrowRight className="h-6 w-6" />
             </button>
-            <a 
-              href="mailto:hello@privefi.xyz"
-              className="border border-purple-500/50 text-purple-400 px-12 py-6 rounded-xl font-bold text-lg hover:bg-purple-500/10 hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 ease-in-out flex items-center space-x-3"
-            >
-              <span>Contact Us</span>
-              <ExternalLink className="h-6 w-6" />
-            </a>
+            <div className="flex space-x-4">
+              <a 
+                href="https://twitter.com/privefi_xyz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border border-purple-500/50 text-purple-400 px-6 py-6 rounded-xl font-bold text-lg hover:bg-purple-500/10 hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 ease-in-out flex items-center space-x-3"
+              >
+                <Twitter className="h-6 w-6" />
+              </a>
+              <a 
+                href="mailto:hello@privefi.xyz"
+                className="border border-purple-500/50 text-purple-400 px-12 py-6 rounded-xl font-bold text-lg hover:bg-purple-500/10 hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 ease-in-out flex items-center space-x-3"
+              >
+                <span>Contact Us</span>
+                <ExternalLink className="h-6 w-6" />
+              </a>
+            </div>
             </div>
             <p className="text-sm text-slate-400 mt-4">
               30-minute discovery call • No commitment required

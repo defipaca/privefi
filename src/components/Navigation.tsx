@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, TrendingUp, Eye, User, ExternalLink } from 'lucide-react';
+import { Shield, TrendingUp, Eye, User, ExternalLink, Twitter } from 'lucide-react';
 import { Page } from '../App';
 import { WalletConnectButton } from './WalletConnectButton';
 
@@ -51,6 +51,14 @@ export const Navigation: React.FC<NavigationProps> = ({ currentPage, onPageChang
 
           {/* Action Buttons */}
           <div className="flex items-center space-x-4">
+            <a
+              href="https://twitter.com/privefi_xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 text-slate-400 hover:text-purple-400 transition-colors duration-300 ease-in-out"
+            >
+              <Twitter className="h-4 w-4" />
+            </a>
             <a
               href="mailto:hello@privefi.xyz"
               className="flex items-center space-x-2 border border-purple-500/50 text-purple-400 px-4 py-2 rounded-lg font-medium hover:bg-purple-500/10 hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 ease-in-out"
